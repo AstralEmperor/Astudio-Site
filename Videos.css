@@ -1,0 +1,132 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+}
+header{
+	width:100%;
+	height:auto;
+	text-align:center;
+	top:0;
+	background: rgb(231,165,49);
+   background: radial-gradient(circle, rgba(231,165,49,1) 20%, rgba(187,127,4,1) 54%, rgba(115,85,9,1) 97%);
+	box-shadow:inset 1px 0 10px;
+	}
+header img{
+	height:8em;
+	transition: transform 0.5s ease-out;
+}	
+header img:hover{
+    transform: scale(1.05);
+}
+table{
+	font-size:2em;
+	font-weight:bold;
+}
+table td:hover {
+    background-color: rgb(231,165,49);
+	font-size:0.8em;
+}
+table td a {
+    display: block;
+	color:DarkRed;
+	letter-spacing:0.1rem;
+	font-size: clamp(0.5rem,2.2vh, 3rem);
+	-webkit-text-stroke: 0.2px darkred;
+}
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+.content-wrap {
+  padding-bottom: 2.5rem;
+}
+.boxed{
+	 background: rgb(233,237,238);
+     background: linear-gradient(117deg, rgba(233,237,238,1) 0%, rgba(164,208,228,1) 46%, rgba(241,252,251,1) 75%);
+	 border: 2px solid black;
+	 margin:auto;
+	 width:auto;
+	 max-width:85em;
+	 box-shadow:0 0 25px black;
+	 min-height: 100vh;
+}
+.text-content{
+	 padding: 0 1.5em;
+}
+.flex-parent{
+	display:flex;
+}
+.flex-parent > *{
+	flex-basis:100%;
+}
+.flex-grow{
+	flex-grow: 1;
+}
+.flex-item{
+    text-align:center;
+	padding:.5em;
+	border:2px solid #ADD8E6;
+	width:35em;
+	background-color:MediumTurquoise;
+	box-shadow:inset 0 0 10px;
+	z-index:1000;
+	font-size:2vh;
+}
+a:link{
+		text-decoration: none;
+}
+h1{
+	 text-align:center;
+	 background: rgb(2,48,71);
+     background: linear-gradient(90deg, rgba(2,48,71,1) 0%, rgba(33,114,142,1) 50%, rgba(2,48,71,1) 100%);
+	 width:100%;
+	 height:auto;
+	 margin-bottom:2em;
+	 color:#ffe8d6;
+	 font-size: clamp(1.5rem,3vh, 10rem);
+	 letter-spacing:0.1em;
+	 word-spacing:0.3em;
+	 font-weight:bold;
+	 -webkit-text-stroke: 0.15px Lavender;
+
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	background-image: radial-gradient(gray, black);
+	z-index:100;
+	font-size: clamp(0.8rem,1.5vh, 2rem);
+	overflow-x:hidden;
+}
+p{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 72ch;
+	line-height:2em;
+    letter-spacing:0.05rem;
+	color:black;
+}
+ul{
+	text-align:center;
+    list-style-position: inside;
+} 
+footer {
+   overflow: hidden;
+   font-family: 'Poppins', sans-serif;
+   bottom:0;
+   width:100%;
+   height:4em;   
+   background: rgb(231,165,49);
+   background: radial-gradient(circle, rgba(231,165,49,1) 20%, rgba(187,127,4,1) 54%, rgba(115,85,9,1) 97%);
+   text-align:center;
+   box-shadow:inset 1px 0 10px;
+   font-size: clamp(0.8rem, 1.5vh, 2rem);
+   padding-top:0.8em;
+   line-height:1.15em;
+   margin-top:0.2em;
+}
+#professions{
+	color:DarkSlateGray;
+	font-size:clamp(0.8rem, 1.2vh, 2rem);
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+ <head><title>Home-AstralStudio</title></head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <meta name="keywords" content="Indie, Developer, Unity,Game Art,Astral Studio">
+  <meta name="Marko Kovačević" content="Home page">
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./home.css">
+  <link rel="stylesheet" href="./transitions.css">
+  <body>
+  <div class="transition transition-1 is-active"></div>
+
+  <!----Header---->
+
+   <header>
+         <a class="skip-nav-link" href="#main-content">
+      skip navigation
+     </a>
+
+    <a href="./home.html">
+     <img src="./Images/Astudio.png" alt="Astral Studio.png">
+	 </a>
+  </header>
+
+  <!----navigation ----> 
+
+ <nav> 
+    <ul class="primary-navigation"> 
+   <button class="mobile-nav-toggle">
+      <div class="line line1"></div>
+      <div class="line line2"></div>
+      <div class="line line3"></div>
+  </button>
+     
+       <li class="flex-item"><a href="./home.html">Home</a></li>
+        <li class="flex-item"><a href="./Games.html">Games</a></li>
+        <li class="flex-item"><a href="./Art.html">Art</a></li>
+        <li class="flex-item"><a href="./Experience.html">Experience</a></li>
+        <li class="flex-item"><a href="./About me.html">About Me</a></li>
+    </ul>  
+   </nav>
+
+   <!----Main Content ---->
+
+	 <main id="main-content">
+       <section class="content-wrap boxed">
+   <h1 style="padding: 5em 0 5em 0;">
+   <span id="span-Astudio">Astral Studio</span><br>
+   <span id="span-welcome"></span>
+   </h1>   
+   <div class="text-content">
+   <img id="hello-picture"src="Images/CreepyGreeting.png"alt="Greetings.png" title="Hello Everyone!!"/>
+  <p style="padding: 0.5em 0 2em 0;">
+   <b>Hello and welcome</b>, to my personal site, in which i talk about my personal experience in making games alone, as well as introduce a games i have been working on. <b>Enjoy!</b>
+   </p>
+   <p style="padding: 0.5em 0 2em 0;">
+    <b>Some of the content on this site include:</b>
+	</p>
+
+   <!----List---->
+
+    <ol>
+	 <li><strong>Pixel Art</strong></li><br>
+	 <li><strong>Vector Art</strong></li><br>
+	 <li><strong>Game Examples</strong></li><br>
+	 <li><strong>My own experience as an Indie Dev</strong></li><br>
+	 </ol>
+	 </div>
+
+	 <!--button-->
+
+	 <form method="post"action="./games.html">
+	 <button class="get-started"> 
+	  Get Started
+	 </button>
+	 </form>
+	 
+ </section>
+	 </main>
+
+	   <!--footer-->
+
+	 <footer>
+	 Made by: <strong>Marko Kovačević</strong><br>
+     <span id="professions">Front End Developer,Indie Game Developer,Graphic Designer.</span><br>	 
+	 
+    <!----Social Media ---->
+
+     <a class="instagram" href="https://www.instagram.com/marko_kovi/" target="_blank"><ion-icon size="large" name="logo-instagram"></ion-icon></a> 
+     <a class="facebook"href="https://www.facebook.com/Lordmkking/"target="_blank"><ion-icon size="large" name="logo-facebook"></ion-icon></a>
+   </footer>
+
+   <!----JS---->
+
+   <script src="./transitions.js"></script>
+   <script src="./h1Animation.js"></script>
+  <script src="./ResponsiveMenu.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+ </body>
+</html>
